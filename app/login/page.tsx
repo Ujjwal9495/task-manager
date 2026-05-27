@@ -46,7 +46,7 @@ export default function LoginPage() {
       provider: "google",
 
       options: {
-        redirectTo: "http://localhost:3000/dashboard",
+        redirectTo: "https://task-manager-murex-omega-53.vercel.app/dashboard",
       },
     });
   };
